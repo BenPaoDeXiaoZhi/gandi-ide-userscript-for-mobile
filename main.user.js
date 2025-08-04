@@ -13,7 +13,7 @@
     'use strict';
     const erudaContainer = document.createElement('script')
     erudaContainer.src="https://cdn.jsdelivr.net/npm/eruda"
-    erudaContainer.onload='()=＞{alert(\"已载入\")}'
+    erudaContainer.onload='()=>{alert(\"已载入\")}
     const leftSideBarScale = 0.5
     const topBarScale = 0.5
     const rightWrapperScale = 0.5
