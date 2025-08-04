@@ -62,7 +62,7 @@
                 const stageWrapper = document.querySelector('.gandi_gui_stage-wrapper_29wQB')
                 console.log(stageWrapper)
                 stageWrapper.style.zoom = rightWrapperScale
-                const spritesWrapper = document.querySelectorAll('.gandi_collapsible-box_collapsed_oQuU1')[1]
+                const spritesWrapper = document.querySelector('.gandi_collapsible-box_collapsed_oQuU1')
                 console.log(spritesWrapper)
                 spritesWrapper.style.zoom = rightWrapperScale
                 spritesWrapper.style.top = `337px`
