@@ -17,6 +17,7 @@
         eval(data)
         log('已注入eruda')
         console.log(eruda)
+        eruda.init()
     })
     const leftSideBarScale = 0.5
     const topBarScale = 0.5
