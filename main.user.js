@@ -15,8 +15,8 @@
         return fet.text()
     }).then((data)=>{
         eval(data)
-        log('已注入eruka')
-        console.log(eruka)
+        log('已注入eruda')
+        console.log(eruda)
     })
     const leftSideBarScale = 0.5
     const topBarScale = 0.5
